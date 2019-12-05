@@ -1,0 +1,61 @@
+<p>pipsim works!</p>
+<form>
+<div> capital = "ariel" => "Ariel"</div>
+<input [formControl]="t1">
+<p>str pip1=:{{t1.value|one}}</p>
+
+<div> toIsraeliDate = new Date => "27.11.19"</div>
+
+ <p>str pip2=:{{t2|tow}}</p> 
+
+<div> allCapital = "ariel" => "ARIEL" </div>
+<input [formControl]="t3">
+<p>str pip3=:{{t3.value|three}}</p>
+
+<div>unCapital = "Ariel" => "ariel"</div>
+<input [formControl]="t4">
+
+<p>str pip4=:{{t4.value|for}}</p>
+
+<div> 5. unCapitalAll = "ARIEL" => "ariel"</div>
+<input [formControl]="t5">
+
+<p>str pip5=:{{t5.value|five}}</p>
+
+<div>sayHello = "ariel" => "Hello ariel"</div>
+<input [formControl]="t6">
+
+<p>str pip6=:{{t6.value|six}}</p>
+
+<div>incr = 4 => 5</div>
+<input [formControl]="t7">
+<p>number pips7=:{{t7.value|seven}}</p>
+
+<div>decr = 9 => 8</div>
+
+<input [formControl]="t8">
+<p>number pips8=:{{t8.value|eheigt}}</p>
+
+<div>topTen => ["eli", "shuki" .... 15 names] => [...only 10]</div>
+
+<input [formControl]="t9">
+
+<p>pips9={{t9.value|nine:arrr}}</p>
+
+<div>10. filter => ["eli", .... 15 names]:"term" => [...only includes "term"]</div>
+
+<input [formControl]="t10">
+
+<p>pips10={{t10.value|ten:arrr}}</p>
+
+<div>maxVal => [5,8,13,3,2] => 13</div>
+
+
+<p>pips11={{arr2|eleven}}</p>
+
+<div> minVal => [5,8,13,3,2] => 2 --></div>
+
+<p>pips12={{arr2|twelve}}</p>
+
+
+</form>
